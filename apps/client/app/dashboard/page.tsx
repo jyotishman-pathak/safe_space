@@ -1,4 +1,5 @@
 import React from 'react'
+import Map from './components/map'
 
 const Dashboard = () => {
   return (
@@ -10,6 +11,7 @@ const Dashboard = () => {
       search bar   = allow user to search incident or location in map
     
 <div className="">
+  <Map/>
     share location
 </div>
     /</div>
